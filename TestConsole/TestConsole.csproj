@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Genesis.AppServices">
+      <HintPath>..\..\genisisSol\Genesis.AppServices\bin\Debug\netcoreapp2.0\Genesis.AppServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Genesis.Domain">
+      <HintPath>..\..\genisisSol\Genesis.Domain\bin\Debug\netcoreapp2.0\Genesis.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="Genesis.Infrastructure">
+      <HintPath>..\..\genisisSol\Genesis.Infrastructure\bin\Debug\netcoreapp2.0\Genesis.Infrastructure.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.entityframeworkcore" Version="2.0.2" />
+    <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="2.0.2" />
+  </ItemGroup>
+
+</Project>
